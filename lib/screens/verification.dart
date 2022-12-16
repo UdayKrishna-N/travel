@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:travel/constants.dart';
-import 'package:travel/screens/user%20screens/dashboard.dart';
+import 'package:travel/screens/user%20screens/homescreen.dart';
 import 'package:travel/util/custom_button.dart';
 import 'package:travel/util/custom_clipper2.dart';
 
@@ -184,7 +184,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
                             Navigator.pushAndRemoveUntil(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => Dashboard()),
+                                    builder: (context) => HomeScreen()),
                                 (route) => false);
                           },
                           text: "VERIFY & PROCEED",
