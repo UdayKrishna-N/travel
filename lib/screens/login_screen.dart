@@ -6,7 +6,7 @@ import 'package:travel/screens/verification.dart';
 import 'package:travel/util/custom_button.dart';
 
 import '../util/custom_clipper1.dart';
-import '../util/number_textfield.dart';
+import '../util/number_field.dart';
 
 class LoginScreen extends StatefulWidget {
   LoginScreen({super.key});
